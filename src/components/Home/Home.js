@@ -2,12 +2,29 @@ import React from 'react'
 import './home.scss'
 
 
-const Home = () => {
+const Home = ({ show }) => {
 
 	return (
 		
-		<section>
+		<section className={ show ? 'home animacion-in' : 'home' } >
+			<h1 className="name">
+				Hola, Soy
+			</h1>
+			<h1 className="name">
+				Aureliano Torres Sandoval
+			</h1>
+
+			<p className='dev' >
+				{' < Full-Stack Developer /> '}
+			</p>
+
+			<p className='frase' >
+				“La emoción más antigua y más intensa de la humanidad es el miedo, y el más antiguo y más intenso de los miedos es el miedo a lo desconocido”.
+			</p>
 			
+			<p className='author' >
+				--H.P. Lovecraft
+			</p>
 		</section>
 	)
 }

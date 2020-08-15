@@ -1,3 +1,5 @@
+import { BrowserRouter as Router } from 'react-router-dom'
+//
 import React from 'react'
 import './app.scss'
 //
@@ -8,12 +10,14 @@ import Main from './components/Main/Main'
 const App = () => {
 
 	return (
+		
+		<Router>
+			<div className='app' >
+				<Sidebar />
 
-		<div className='app' >
-			<Sidebar />
-
-			<Main />
-		</div>
+				<Main />
+			</div>
+		</Router>
 	)
 }
 

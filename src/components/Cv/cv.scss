@@ -2,7 +2,7 @@
 	display: block;
 	width: 15vw;
 	height: 50px;
-	background-color: #07775f;
+	background-color: transparent;
 	border: none;
 	margin: 0 auto;
 	color: white;
@@ -12,9 +12,11 @@
 	text-align: center;
 	position: relative;
 	box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.5);
+	border: 1px solid white;
 	transition: all 500ms;
 
 	&:hover{
-		box-shadow: 0px 1px 5px 1px rgba(255,255,255,1);
+		background-color: #09a382 ;
+		border: 1px solid #09a382 ;
 	}
 }

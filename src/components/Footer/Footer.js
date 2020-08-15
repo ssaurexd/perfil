@@ -3,13 +3,15 @@ import './footer.scss'
 
 
 const Footer = () => {
+
+	const year = new Date()
 	
 	return (
 		
 		<footer className='footer'>
 			<p>Desarrollado por:</p>
 			<p>Aureliano Torres Sandoval</p>
-			<p>	&copy; 2020</p>
+			<p>	&copy; { year.getFullYear() } </p>
 		</footer>
 	)
 }

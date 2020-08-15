@@ -1,14 +1,18 @@
 //variables
-$bg_nav: white;
+$bg_nav: transparent;
 $color_nav: black;
 $font: uppercase ; // capitalize
 $shadow_nav: none; // rgba(0, 0, 0, 0.75)
 $border_color: black;
 
 //
+.active{
+	border-bottom: 1px solid $border_color;
+}
 .nav{
+	width: 100%;
 	height: 8vh;
-	font-size: .9em;
+	font-size: .8em;
 	background-color: $bg_nav ;
 	color: $color_nav;
 	box-shadow: $shadow_nav;
@@ -61,4 +65,86 @@ $border_color: black;
 	&:hover:before {
 		transform: scale(1);
 	}	
+}
+
+
+//Nav fixed
+.nav-fixed{
+	width: 100%;
+	height: 8vh;
+	font-size: .8em;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 75vw;
+	color: white;
+	z-index: 99;
+	opacity: 0;
+	box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+
+	animation: showNav 600ms ease;
+	animation-fill-mode: forwards;
+
+	.nav-menu{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+		margin-right: 25px;
+		height: 100%;
+		flex-wrap: wrap;
+	}
+	.menu-opcion{
+		margin: 20px;
+		border-right: 1px solid rgb(161, 161, 161);
+	}
+	.menu-opcion a{
+		color: white;
+		text-decoration: none;
+		padding: 7px 17px 7px 17px;
+		position: relative;
+		text-transform: $font;
+		
+		&:before,
+		&:after{
+			content: "";
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			box-sizing: border-box;
+			border-bottom-right-radius: 3px;
+			border-top-left-radius: 3px;
+			transform: scale(0);
+			transition: 0.8s;
+		}
+		&:before {
+			border-bottom: 3px solid white;
+			border-left: 3px solid white;
+			transform-origin: 0 100%;
+		}
+		&:after {
+			border-top: 2px solid white;
+			border-right: 2px solid white;
+			transform-origin: 100% 0%;
+		}
+		&:hover:after,
+		&:hover:before {
+			transform: scale(1);
+		}	
+	}
+	
+}
+
+@keyframes showNav{
+	0%{
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
 }

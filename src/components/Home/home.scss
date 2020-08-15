@@ -1,0 +1,39 @@
+.home{
+	opacity: 0;
+	width: 100%;
+	height: 92vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	flex-direction: column;
+
+	.name {
+		font-family: Relaway;
+		align-self: center;
+		font-weight: 700;
+		color: #09a382;
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+	.dev{
+		font-family: Raleway;
+		font-weight: 300;
+		margin-bottom: 20px;
+		font-size: 1.2em;
+	}
+	.frase,
+	.author{
+		width: 40%;
+		font-style: italic;
+	}
+	.frase{
+		font-size: 1em;
+		margin-bottom: 20px;
+		line-height: 1.5em;
+	}
+	.author{
+		font-size: .8em;
+	}
+}

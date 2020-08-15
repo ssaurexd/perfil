@@ -6,7 +6,7 @@ const AboutMe = () => {
 	
 	return (
 
-		<section>
+		<section className='about-me' >
 			
 		</section>
 	)

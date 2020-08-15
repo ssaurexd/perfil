@@ -60,12 +60,16 @@ table {
 	font-family: K2D;
 	src: url('./static/fonts/K2D-Regular.ttf');
 }
+@font-face{
+	font-family: Raleway;
+	src: url('./static/fonts/Raleway-Regular.ttf');
+}
+@font-face{
+	font-family: Pacifico;
+	src: url('./static/fonts/Pacifico-Regular.ttf');
+}
 
 .app{
 	font-family: 'Playfair Display';
 	font-size: 1.3em;
 }
-
-//variables
-$bg_nav: transparent;
-$color_nav: black;

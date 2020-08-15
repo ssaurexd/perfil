@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import { FaHome, FaFolder, FaChartBar, FaHeart } from 'react-icons/fa'
 //
 import React from 'react'
@@ -5,34 +6,34 @@ import './nav.scss'
 
 
 const Nav = () => {
-	
+
 	return (
 
-		<nav className='nav' >
+		<nav  className='nav'>
 				
 			<ul className='nav-menu' >
 				<li className='menu-opcion' > 	
-					<a href='/' >
+					<NavLink to='/' activeClassName='active' exact > 
 						<FaHome /> Inicio
-					</a> 
+					</NavLink> 
 				</li>
 				
 				<li className='menu-opcion' > 
-					<a href='#portafolio' >
+					<NavLink to='/portafolio' activeClassName='active' exact >
 						<FaFolder /> Portafolio
-					</a> 
+					</NavLink> 
 				</li>
 				
 				<li className='menu-opcion' > 
-					<a href='#habilidades' >
+					<NavLink to='/habilidades' activeClassName='active' exact >
 						<FaChartBar /> Habilidades
-					</a> 
+					</NavLink> 
 				</li>
 				
 				<li className='menu-opcion' > 
-					<a href='#sobre-mi' >
+					<NavLink to='/sobre-mi'  activeClassName='active' exact >
 						<FaHeart /> Sobre mi
-					</a> 
+					</NavLink> 
 				</li>
 			</ul>
 		</nav>
