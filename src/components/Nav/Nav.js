@@ -13,7 +13,7 @@ const Nav = () => {
 				
 			<ul className='nav-menu' >
 				<li className='menu-opcion' > 	
-					<NavLink to='/perfil' activeClassName='active' exact > 
+					<NavLink to='/perfil/' activeClassName='active' exact > 
 						<FaHome /> Inicio
 					</NavLink> 
 				</li>

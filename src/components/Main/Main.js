@@ -1,7 +1,8 @@
 import {
 	Switch,
 	Route,
-	useLocation
+	useLocation,
+	Redirect
 } from "react-router-dom"  
 //
 import React, { useState, useEffect, useRef } from 'react'
@@ -46,9 +47,9 @@ const Main = () => {
 
 			<Switch>
 
-				<Route path='/perfil' exact >
+				<Route path='/perfil/' exact >
 					<Home 
-						show={ path === '/perfil' ? true : false }
+						show={ path === '/perfil/' ? true : false }
 					/>
 				</Route>
 
@@ -68,7 +69,9 @@ const Main = () => {
 					<AboutMe 
 						show={ path === '/sobre-mi' ? true : false }
 					/>
-				</Route>				
+				</Route>
+
+				<Redirect to='/perfil/' exact />	
 
 			</Switch>
 		</main>
