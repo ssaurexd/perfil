@@ -25,13 +25,11 @@ const Main = () => {
 		setPath(location.pathname )
 	}, [ location ])
 	
-	// Para que el nav tenga
+	// Para que el nav tenga otra clase al hacer scroll
 	const handleScroll = () => {
 		
 		const navH = main.current.firstChild.scrollHeight
-		console.log(navH);
 		const scrollH = main.current.scrollTop
-		console.log(scrollH);
 		
 		if( navH < scrollH ){
 			main.current.firstChild.classList = 'nav-fixed'
