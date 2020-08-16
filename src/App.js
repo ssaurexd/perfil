@@ -21,7 +21,6 @@ const App = () => {
 						setShowMsg={ setShowMsg }
 						showMsg={ showMsg }
 					/>
-
 				)}
 
 				<Sidebar />

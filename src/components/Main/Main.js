@@ -46,9 +46,9 @@ const Main = () => {
 
 			<Switch>
 
-				<Route path='/' exact >
+				<Route path='/perfil' exact >
 					<Home 
-						show={ path === '/' ? true : false }
+						show={ path === '/perfil' ? true : false }
 					/>
 				</Route>
 
