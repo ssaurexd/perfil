@@ -27,9 +27,9 @@ const AboutMe = ({ show }) => {
 					/>
 				</div>
 				<div className="perfil-info">
-					<p className='un-poquito' >Un poquito de mi...</p>
+					<p className='un-poquito' >Un poquito de mí.</p>
 					<p className='about' >
-						Soy Ingeniero en Tecnologias de la Información y Comunicaciones, me apasiona la programacion, los animales y la mitología Lovecraftiana. Mis autores favoritos son <span>Edgar Allan Poe</span>, <span>Howard Phillips Lovecraft</span> y <span> Michel Houellebecq</span>.
+						Soy Ingeniero en Tecnologías de la Información y Comunicaciones, me apasiona la programación, los animales y la mitología Lovecraftiana. Mis autores favoritos son <span>Edgar Allan Poe</span> , <span>Howard Phillips Lovecraft</span> y <span>Michel Houellebecq</span>.
 					</p>
 					<p className='about'>
 						Soy: 

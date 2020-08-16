@@ -33,7 +33,7 @@ const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => 
 					<p className='card-description' >{ description }</p>
 
 					<div className="tecnologias">
-						<p>Tecnologias: </p>
+						<p>Tecnologías: </p>
 						{
 							tecnologies.map( (item, index) => (
 								<>
