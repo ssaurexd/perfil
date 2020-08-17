@@ -9,8 +9,6 @@ const Home = ({ show }) => {
 		<section className={ show ? 'home animacion-in' : 'home' } >
 			<h1 className="name">
 				Hola, Soy
-			</h1>
-			<h1 className="name">
 				Aureliano Torres Sandoval
 			</h1>
 

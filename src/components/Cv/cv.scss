@@ -20,3 +20,25 @@
 		border: 1px solid #09a382 ;
 	}
 }
+
+//
+@media screen and ( max-width: 992px ){
+	.btn-cv{
+		position: absolute;
+		top: 15px;
+		left: 0;
+		right: 0;
+		width: 200px;
+		height: 40px;
+	}
+}
+@media screen and ( max-width: 516px ){
+	.btn-cv{
+		width: 140px;
+		height: 40px;
+		font-size: 14px;
+		font-weight: bolder;
+		background-color: #09a382 ;
+		border: 1px solid #09a382 ;
+	}
+}

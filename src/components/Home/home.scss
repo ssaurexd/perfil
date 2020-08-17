@@ -37,3 +37,23 @@
 		font-size: .8em;
 	}
 }
+
+@media screen and ( max-width: 516px ){
+	.home{
+		height: auto;
+		margin-top: 25vh;
+		margin-bottom: 30px;
+		
+		.name{
+			margin-top: 50px;
+			font-size: 1.2em;
+		}	
+		.dev{
+			font-size: 1em;
+		}
+		.frase{
+			width: 300px;
+			font-size: 18px;
+		}
+	}
+}

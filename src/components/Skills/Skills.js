@@ -64,16 +64,12 @@ const Skills = ({ show }) => {
 				<div className="skill-hard">
 					<h3>Bases de Datos</h3>
 
-					<div>
+					<div className='skill-container' >
 						<div className="chart-container">
 							<span className='logo' >
 								<DiMysql />
 							</span>
 							<p>MySQL</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -81,10 +77,6 @@ const Skills = ({ show }) => {
 								<DiPostgresql />
 							</span>
 							<p>PostgreSQL</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -92,10 +84,6 @@ const Skills = ({ show }) => {
 								<DiMongodb />
 							</span>
 							<p>MongoDB </p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'70%'}} ></div>
-								<span className='percentage'> 70% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -103,10 +91,6 @@ const Skills = ({ show }) => {
 								<DiMsqlServer />
 							</span>
 							<p>SQL Server</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'60%'}} ></div>
-								<span className='percentage'> 60% </span>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -118,16 +102,12 @@ const Skills = ({ show }) => {
 				<div className="skill-hard">
 					<h3>Front-End</h3>
 
-					<div>
+					<div className='skill-container' >
 						<div className="chart-container">
 							<span className='logo' >
 								<DiHtml5 />
 							</span>
 							<p>HTML5</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'99%'}} ></div>
-								<span className='percentage'> 99% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -135,10 +115,6 @@ const Skills = ({ show }) => {
 								<DiReact />
 							</span>
 							<p>ReactJS</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -146,10 +122,6 @@ const Skills = ({ show }) => {
 								<DiReact />
 							</span>
 							<p>Material UI</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -157,10 +129,6 @@ const Skills = ({ show }) => {
 								<DiReact />
 							</span>
 							<p>Redux</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -168,10 +136,6 @@ const Skills = ({ show }) => {
 								<AiOutlineAntDesign />
 							</span>
 							<p>Ant Design</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -179,10 +143,6 @@ const Skills = ({ show }) => {
 								<DiBootstrap />
 							</span>
 							<p>Bootstrap</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -190,10 +150,6 @@ const Skills = ({ show }) => {
 								<DiCss3 />
 							</span>
 							<p>CSS3</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'85%'}} ></div>
-								<span className='percentage'> 85% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -201,10 +157,6 @@ const Skills = ({ show }) => {
 								<DiJavascript1 />
 							</span>
 							<p>JavaScript</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'80%'}} ></div>
-								<span className='percentage'> 80% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -212,10 +164,6 @@ const Skills = ({ show }) => {
 								<DiJqueryLogo />
 							</span>
 							<p>JQuery</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'80%'}} ></div>
-								<span className='percentage'> 80% </span>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -227,16 +175,12 @@ const Skills = ({ show }) => {
 				<div className="skill-hard">
 					<h3>Back-End</h3>
 
-					<div>
+					<div className='skill-container' >
 						<div className="chart-container">
 							<span className='logo' >
 								<DiDjango />
 							</span>
 							<p>Django</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -244,10 +188,6 @@ const Skills = ({ show }) => {
 								<FaNodeJs />
 							</span>
 							<p>ExpressJS</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'90%'}} ></div>
-								<span className='percentage'> 90% </span>
-							</div>
 						</div>
 
 						<div className="chart-container">
@@ -255,10 +195,6 @@ const Skills = ({ show }) => {
 								<FaPython />
 							</span>
 							<p>Python</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'80%'}} ></div>
-								<span className='percentage'> 80% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -266,10 +202,6 @@ const Skills = ({ show }) => {
 								<FaPhp />
 							</span>
 							<p>PHP</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'80%'}} ></div>
-								<span className='percentage'> 80% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -277,10 +209,6 @@ const Skills = ({ show }) => {
 								<DiDjango />
 							</span>
 							<p>DRF</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'70%'}} ></div>
-								<span className='percentage'> 70% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -288,10 +216,6 @@ const Skills = ({ show }) => {
 								<FaNodeJs />
 							</span>
 							<p>NodeJS</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'50%'}} ></div>
-								<span className='percentage'> 50% </span>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -303,16 +227,12 @@ const Skills = ({ show }) => {
 				<div className="skill-hard">
 					<h3>Control de Versiones</h3>
 
-					<div>
+					<div className='skill-container' >
 						<div className="chart-container">
 							<span className='logo' >
 								<FaGithub />
 							</span>
 							<p>GitHub</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'80%'}} ></div>
-								<span className='percentage'> 80% </span>
-							</div>
 						</div>
 						
 						<div className="chart-container">
@@ -320,10 +240,6 @@ const Skills = ({ show }) => {
 								<DiGitBranch />
 							</span>
 							<p>Git</p>
-							<div className="chart">
-								<div className="chart-feeder" style={{width:'70%'}} ></div>
-								<span className='percentage'> 70% </span>
-							</div>
 						</div>
 					</div>
 				</div>

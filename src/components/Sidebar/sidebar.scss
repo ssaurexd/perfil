@@ -41,3 +41,32 @@
 	}
 	
 }
+
+
+//Responsive
+@media screen and ( max-width: 992px ){
+	.sidebar{
+		height: 600px;
+		width: 100%;
+		position: relative;
+		align-items: flex-start;
+
+		.footer{
+			display: none;
+		}
+		.cv{
+			background-color: transparent;
+			height: 50px ;
+		}
+		.socials{
+			height: auto;
+			align-self: flex-end;
+		}
+	}
+}
+@media screen and ( max-width: 516px ){
+	.socials{
+		margin-top: 30px;
+		font-size: 16px;
+	}
+}

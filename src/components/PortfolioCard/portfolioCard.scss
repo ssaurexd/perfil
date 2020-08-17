@@ -130,3 +130,14 @@
 		}
 	}
 }
+
+//
+@media screen and ( max-width: 516px ){
+	.show-info{
+		opacity: 1;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	.portfolio-card:first-child{
+		margin-top: 50px;
+	}
+}

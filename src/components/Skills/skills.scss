@@ -58,39 +58,62 @@
 		font-size: 1.3em;
 		font-weight: bold;
 	}
+	.skill-container{
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
 	.chart-container{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin: 10px 20px;
 
 		p{
 			margin: 0 5px;
 			font-family: K2D;
 		}
 	}
-	.chart{
-		width: 500px;
-		height: 22px;
-		border: 1px solid #ccc;
-		position: relative;
-
-		.chart-feeder{
-			height: 100%;
-			background-color: #09a382;
-			position: absolute;
-			z-index: 98;
-		}
-		.percentage{
-			position: absolute;
-			right:0;
-			z-index: 99;
-			font-size: .8em;
-			margin-right: 10px;
-		}
-	}
 	.logo{
 		font-size: 4em;
 		color: #09a382;
 	}	
+}
+
+//
+@media screen and (max-width: 992px){
+	.skills{
+		position: static;
+		margin-top: 25vh;
+	}
+	.skill{
+		.title{
+			margin: 0;
+			padding: 20px 0;
+		}
+	}
+}
+@media screen and ( max-width: 516px ){
+	.skills{
+		margin-top: 25vh;
+	}
+	.skill{
+		margin-top: 50px;
+		.title{
+			margin: 0;
+			padding: 10px 0;
+			font-size: 1.2em;
+		}
+	}
+	.skill-soft{
+		flex-direction: column;
+		width: 100vw;
+		min-width: 200px;
+
+		.ico{
+			font-size: 100px;
+		}
+	}
 }

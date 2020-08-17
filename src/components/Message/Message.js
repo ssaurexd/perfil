@@ -11,7 +11,7 @@ const Message = ({ setShowMsg }) => {
 					I know, I know "mobile first".
 				</p>
 				<p>
-					Lamentamos las molestias, la parte para móvil aún se encuentra en desarrollo. Tendrás que mirar mi portafolio desde un ordenador.
+					Lamento las molestias, si algunas partes no se adaptan bien a tu dispositivo móvil es porque la parte para móvil aún se encuentra en desarrollo.
 				</p>
 				<button
 					onClick={ () => setShowMsg(false) }
