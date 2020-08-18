@@ -53,21 +53,21 @@ const Main = () => {
 					/>
 				</Route>
 
-				<Route path='/portafolio' exact >
+				<Route path='/perfil/portafolio' exact >
 					<Portfolio 
-						show={ path === '/portafolio' ? true : false }
+						show={ path === '/perfil/portafolio' ? true : false }
 					/>
 				</Route>
 
-				<Route path='/habilidades' exact >
+				<Route path='/perfil/habilidades' exact >
 					<Skills 
-						show={ path === '/habilidades' ? true : false }
+						show={ path === '/perfil/habilidades' ? true : false }
 					/>
 				</Route>
 
-				<Route path='/sobre-mi' exact >
+				<Route path='/perfil/sobre-mi' exact >
 					<AboutMe 
-						show={ path === '/sobre-mi' ? true : false }
+						show={ path === '/perfil/sobre-mi' ? true : false }
 					/>
 				</Route>
 

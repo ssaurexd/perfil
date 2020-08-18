@@ -16,12 +16,12 @@ const App = () => {
 		
 		<Router>
 			<div className='app' >
-				{ showMsg && (
+				{/* { showMsg && (
 					<Message 
 						setShowMsg={ setShowMsg }
 						showMsg={ showMsg }
 					/>
-				)}
+				)} */}
 
 				<Sidebar />
 

@@ -19,19 +19,19 @@ const Nav = () => {
 				</li>
 				
 				<li className='menu-opcion' > 
-					<NavLink to='/portafolio' activeClassName='active' exact >
+					<NavLink to='/perfil/portafolio' activeClassName='active' exact >
 						<FaFolder /> Portafolio
 					</NavLink> 
 				</li>
 				
 				<li className='menu-opcion' > 
-					<NavLink to='/habilidades' activeClassName='active' exact >
+					<NavLink to='/perfil/habilidades' activeClassName='active' exact >
 						<FaChartBar /> Habilidades
 					</NavLink> 
 				</li>
 				
 				<li className='menu-opcion' > 
-					<NavLink to='/sobre-mi'  activeClassName='active' exact >
+					<NavLink to='/perfil/sobre-mi'  activeClassName='active' exact >
 						<FaHeart /> Sobre mi
 					</NavLink> 
 				</li>
