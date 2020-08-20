@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41678375aa8d23a112fb0a479fbfba1e",
+    "revision": "4444ec0191a925e7c190474c0e84f612",
     "url": "/perfil/index.html"
   },
   {
-    "revision": "457b4a7f4224ac399bfe",
-    "url": "/perfil/static/css/main.2b6583a6.chunk.css"
+    "revision": "72950844c0580876481b",
+    "url": "/perfil/static/css/main.8229a6b1.chunk.css"
   },
   {
     "revision": "d2d60606b996b55f3fce",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perfil/static/js/2.a002073d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "457b4a7f4224ac399bfe",
+    "revision": "72950844c0580876481b",
     "url": "/perfil/static/js/main.71472b6d.chunk.js"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf"
   },
   {
-    "revision": "cfea444bd152178f798332d0b7744fd1",
-    "url": "/perfil/static/media/bgSidebar.cfea444b.jpg"
+    "revision": "69c74047f6100bee1c73b90ac434a3d2",
+    "url": "/perfil/static/media/bgSidebar3.69c74047.jpg"
   },
   {
     "revision": "bf95ae8b7922a871fad54a5786e705a1",
