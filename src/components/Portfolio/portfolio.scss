@@ -8,16 +8,28 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	
+	.title{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.568);
+		color: white;
+		padding: 20px 0px;
+		font-size: 1.5em;
+		font-family: Relaway;
+		font-weight: bold;
+		text-align: center;
+		margin: 8vh 0;
+	}
 }
 
-.title{
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.568);
-	color: white;
-	padding: 20px 0px;
-	font-size: 1.5em;
-	font-family: Relaway;
-	font-weight: bold;
-	text-align: center;
-	margin: 8vh 0;
+
+//
+@media screen and ( max-width: 516px ){
+	.portfolio{
+		margin-top: 30vh;
+		
+		.title{
+			padding: 10px 0;
+			font-size: 1.2em;
+		}
+	}
 }
