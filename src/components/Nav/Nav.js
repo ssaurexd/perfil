@@ -32,7 +32,7 @@ const Nav = () => {
 				
 				<li className='menu-opcion' > 
 					<NavLink to='/perfil/sobre-mi'  activeClassName='active' exact >
-						<FaHeart /> Sobre mi
+						<FaHeart /> Sobre mí
 					</NavLink> 
 				</li>
 			</ul>

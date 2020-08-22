@@ -51,22 +51,27 @@ table {
 @font-face{
 	font-family: 'Playfair Display';
 	src: url('./static/fonts/PlayfairDisplay-Regular.ttf');
+	font-display: auto;
 }
 @font-face{
 	font-family: Sacramento;
 	src: url('./static/fonts/Sacramento-Regular.ttf');
+	font-display: auto;
 }
 @font-face{
 	font-family: K2D;
 	src: url('./static/fonts/K2D-Regular.ttf');
+	font-display: auto;
 }
 @font-face{
 	font-family: Raleway;
 	src: url('./static/fonts/Raleway-Regular.ttf');
+	font-display: auto;
 }
 @font-face{
 	font-family: Pacifico;
 	src: url('./static/fonts/Pacifico-Regular.ttf');
+	font-display: auto;
 }
 
 .app{

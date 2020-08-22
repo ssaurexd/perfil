@@ -46,7 +46,7 @@ const Main = () => {
 			<Nav />
 
 			<Switch>
-
+				
 				<Route path='/perfil/' exact >
 					<Home 
 						show={ path === '/perfil/' ? true : false }
