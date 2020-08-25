@@ -153,7 +153,7 @@ $border_color: black;
 @media screen and ( max-width: 992px ){
 	.nav{
 		width: 100vw;
-		height: 67px;
+		height: auto;
 		font-size: 18px;
 		position: static;
 	}

@@ -2,22 +2,20 @@ import { FaCloudDownloadAlt } from 'react-icons/fa'
 //
 import React from 'react'
 import './cv.scss'
+import cvPDF from '../../static/cv/CV AURELIANO TORRES SANDOVAL.pdf'
 
 
 const Cv = () => {
-
-	const descargarCV = () => {
-		
-	}
 	
 	return (
 
-		<button
+		<a
 			className='btn-cv'
-			onClick={ () => descargarCV() }
+			target='_blank' rel='noopener noreferrer'
+			href={ cvPDF }
 		>
 			<FaCloudDownloadAlt /> Descargar CV	
-		</button>
+		</a>
 	)
 }
 
