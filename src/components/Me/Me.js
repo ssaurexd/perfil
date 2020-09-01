@@ -1,5 +1,5 @@
 import React from 'react'
-import imgPerfil from '../../static/images/perfil2.jpg'
+import imgPerfil from '../../static/images/perfil3.png'
 import './me.scss'
 
 
