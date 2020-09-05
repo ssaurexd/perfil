@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/perfil/static/css/main.51fedbba.chunk.css",
-    "main.js": "/perfil/static/js/main.d7617219.chunk.js",
-    "main.js.map": "/perfil/static/js/main.d7617219.chunk.js.map",
+    "main.js": "/perfil/static/js/main.1e2f1493.chunk.js",
+    "main.js.map": "/perfil/static/js/main.1e2f1493.chunk.js.map",
     "runtime-main.js": "/perfil/static/js/runtime-main.9b8b9c5b.js",
     "runtime-main.js.map": "/perfil/static/js/runtime-main.9b8b9c5b.js.map",
-    "static/js/2.5cfbe8c0.chunk.js": "/perfil/static/js/2.5cfbe8c0.chunk.js",
-    "static/js/2.5cfbe8c0.chunk.js.map": "/perfil/static/js/2.5cfbe8c0.chunk.js.map",
+    "static/js/2.c5040e87.chunk.js": "/perfil/static/js/2.c5040e87.chunk.js",
+    "static/js/2.c5040e87.chunk.js.map": "/perfil/static/js/2.c5040e87.chunk.js.map",
     "index.html": "/perfil/index.html",
-    "precache-manifest.607015667b994087421dff1e8b32912e.js": "/perfil/precache-manifest.607015667b994087421dff1e8b32912e.js",
+    "precache-manifest.25517ef2f522ab08064255808eacb87d.js": "/perfil/precache-manifest.25517ef2f522ab08064255808eacb87d.js",
     "service-worker.js": "/perfil/service-worker.js",
     "static/css/main.51fedbba.chunk.css.map": "/perfil/static/css/main.51fedbba.chunk.css.map",
-    "static/js/2.5cfbe8c0.chunk.js.LICENSE.txt": "/perfil/static/js/2.5cfbe8c0.chunk.js.LICENSE.txt",
+    "static/js/2.c5040e87.chunk.js.LICENSE.txt": "/perfil/static/js/2.c5040e87.chunk.js.LICENSE.txt",
     "static/media/CV AURELIANO TORRES SANDOVAL.pdf": "/perfil/static/media/CV AURELIANO TORRES SANDOVAL.eaabb190.pdf",
     "static/media/app.scss": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf",
     "static/media/sidebar.scss": "/perfil/static/media/bgSidebar3.98072286.jpg",
@@ -28,14 +28,14 @@
     "static/media/fukuro.jpg": "/perfil/static/media/fukuro.30f07721.jpg",
     "static/media/fukuro2.jpg": "/perfil/static/media/fukuro2.f452dee2.jpg",
     "static/media/heroes.jpg": "/perfil/static/media/heroes.cb48a265.jpg",
-    "static/media/login.jpg": "/perfil/static/media/login.3b7acebb.jpg",
+    "static/media/login.png": "/perfil/static/media/login.f235efa6.png",
     "static/media/perfil.jpg": "/perfil/static/media/perfil.711c7485.jpg",
     "static/media/perfil3.png": "/perfil/static/media/perfil3.aa960f01.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b8b9c5b.js",
-    "static/js/2.5cfbe8c0.chunk.js",
+    "static/js/2.c5040e87.chunk.js",
     "static/css/main.51fedbba.chunk.css",
-    "static/js/main.d7617219.chunk.js"
+    "static/js/main.1e2f1493.chunk.js"
   ]
 }
