@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/perfil/static/css/main.51fedbba.chunk.css",
+    "main.css": "/perfil/static/css/main.ec341c25.chunk.css",
     "main.js": "/perfil/static/js/main.1e2f1493.chunk.js",
     "main.js.map": "/perfil/static/js/main.1e2f1493.chunk.js.map",
     "runtime-main.js": "/perfil/static/js/runtime-main.9b8b9c5b.js",
@@ -8,9 +8,9 @@
     "static/js/2.c5040e87.chunk.js": "/perfil/static/js/2.c5040e87.chunk.js",
     "static/js/2.c5040e87.chunk.js.map": "/perfil/static/js/2.c5040e87.chunk.js.map",
     "index.html": "/perfil/index.html",
-    "precache-manifest.25517ef2f522ab08064255808eacb87d.js": "/perfil/precache-manifest.25517ef2f522ab08064255808eacb87d.js",
+    "precache-manifest.bb2abc5b90ca4d3375e9c62d5434d8e4.js": "/perfil/precache-manifest.bb2abc5b90ca4d3375e9c62d5434d8e4.js",
     "service-worker.js": "/perfil/service-worker.js",
-    "static/css/main.51fedbba.chunk.css.map": "/perfil/static/css/main.51fedbba.chunk.css.map",
+    "static/css/main.ec341c25.chunk.css.map": "/perfil/static/css/main.ec341c25.chunk.css.map",
     "static/js/2.c5040e87.chunk.js.LICENSE.txt": "/perfil/static/js/2.c5040e87.chunk.js.LICENSE.txt",
     "static/media/CV AURELIANO TORRES SANDOVAL.pdf": "/perfil/static/media/CV AURELIANO TORRES SANDOVAL.eaabb190.pdf",
     "static/media/app.scss": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.9b8b9c5b.js",
     "static/js/2.c5040e87.chunk.js",
-    "static/css/main.51fedbba.chunk.css",
+    "static/css/main.ec341c25.chunk.css",
     "static/js/main.1e2f1493.chunk.js"
   ]
 }
