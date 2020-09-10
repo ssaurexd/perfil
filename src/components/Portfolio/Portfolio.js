@@ -3,7 +3,7 @@ import './portfolio.scss'
 import imgCineteca from '../../static/images/cineteca.jpg'
 import imgFukuro1 from '../../static/images/fukuro.jpg'
 import imgFukuro2 from '../../static/images/fukuro2.jpg'
-import imgLogin from '../../static/images/login.jpg'
+import imgLogin from '../../static/images/login.png'
 import imgHeroes from '../../static/images/heroes.jpg'
 import imgCrud from '../../static/images/crud.jpg'
 //
@@ -29,6 +29,15 @@ const Portfolio = ({ show }) => {
 			/>
 
 			<PortfolioCard 
+				img={ imgLogin }
+				title='Login Firebase'
+				description='Login con tematica de pokemon empleando firebase y redux'
+				tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiFirebase', 'DiReact', 'AiOutlineAntDesign' ] }
+				demo='https://cocky-saha-e11c8b.netlify.app'
+				code='https://github.com/sanjisand/pokemon'
+			/>
+
+			<PortfolioCard 
 				img={ imgFukuro1 }
 				title='Fukuro'
 				description='Proyecto personal desarrollado como practica, es la parte Back-End con Django Rest Framework.'
@@ -47,14 +56,6 @@ const Portfolio = ({ show }) => {
 			/>
 
 			<PortfolioCard 
-				img={ imgLogin }
-				title='Sencillo login'
-				description='Es una práctica simple donde se muestra el funcionamiento de iniciar sesión'
-				tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiBootstrap', 'DiReact' ] }
-				demo='https://login-portfolio.netlify.app/'
-				code='https://github.com/sanjisand/libreria-react'
-			/>
-			<PortfolioCard 
 				img={ imgHeroes}
 				title='Heroes'
 				description='Proyecto realizado en curso de React, pone en práctica react-router, Redux.'
@@ -62,6 +63,7 @@ const Portfolio = ({ show }) => {
 				demo='https://priceless-hodgkin-e1a9c5.netlify.app'
 				code='https://github.com/sanjisand/heroes'
 			/>
+
 			<PortfolioCard 
 				img={ imgCrud}
 				title='Crud'

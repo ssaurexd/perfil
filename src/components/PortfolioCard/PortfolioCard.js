@@ -9,9 +9,13 @@ import {
 	DiPython,
 	DiBootstrap,
 	DiHtml5,
-	DiPostgresql
+	DiPostgresql,
+	DiFirebase
 } from 'react-icons/di'
 import { FaGithubSquare } from 'react-icons/fa'
+import {
+	AiOutlineAntDesign
+} from 'react-icons/ai'
 //
 import React from 'react'
 import './portfolioCard.scss'
@@ -70,6 +74,12 @@ const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => 
 									{
 										item === 'DiPostgresql' && <DiPostgresql className='ico' key={ index } />
 									}
+									{
+										item === 'DiFirebase' && <DiFirebase className='ico' key={ index } />
+									}
+									{
+										item === 'AiOutlineAntDesign' && <AiOutlineAntDesign className='ico' key={ index } />
+									}
 								</>
 							))
 						}
@@ -77,7 +87,12 @@ const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => 
 				</div>
 
 				<div className="card-footer">
-					<a href={ demo } className='card-btn' target='_blank' rel='noopener noreferrer' >
+					<a 
+						href={ demo } 
+						className='card-btn' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
 						Demo
 					</a>
 
