@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93d8a7aaacb0520300322413942f13f1",
+    "revision": "c292f7a713f2fe531c8346ac4397facc",
     "url": "/perfil/index.html"
   },
   {
-    "revision": "232bcc4db1148cc91054",
+    "revision": "216576245ec3e8eb3401",
     "url": "/perfil/static/css/main.82450e5c.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perfil/static/js/2.c5040e87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "232bcc4db1148cc91054",
-    "url": "/perfil/static/js/main.1e2f1493.chunk.js"
+    "revision": "216576245ec3e8eb3401",
+    "url": "/perfil/static/js/main.5bbebb4f.chunk.js"
   },
   {
     "revision": "5c269b8a9e29f4cdb801",
     "url": "/perfil/static/js/runtime-main.9b8b9c5b.js"
-  },
-  {
-    "revision": "eaabb19079cdd7f1787fc4182d902d3f",
-    "url": "/perfil/static/media/CV AURELIANO TORRES SANDOVAL.eaabb190.pdf"
   },
   {
     "revision": "9bec958d1bdbaf4f03bdf23557b4122f",
@@ -90,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84f51e98446aa7893fc53eed88d1a959",
     "url": "/perfil/static/media/crud.84f51e98.jpg"
+  },
+  {
+    "revision": "e4d6cb8c431376ebc1f000a92dbad591",
+    "url": "/perfil/static/media/cv.e4d6cb8c.pdf"
   },
   {
     "revision": "30f077215a815fc55f72ba6b66e41644",
