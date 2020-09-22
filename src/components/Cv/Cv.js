@@ -2,7 +2,7 @@ import { FaCloudDownloadAlt } from 'react-icons/fa'
 //
 import React from 'react'
 import './cv.scss'
-import cvPDF from '../../static/cv/CV AURELIANO TORRES SANDOVAL.pdf'
+import cvPDF from '../../static/cv/cv.pdf'
 
 
 const Cv = () => {

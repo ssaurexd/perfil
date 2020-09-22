@@ -17,7 +17,8 @@ import {
 	DiJavascript1,
 	DiJqueryLogo,
 	DiDjango,
-	DiGitBranch
+	DiGitBranch,
+	DiSass
 } from 'react-icons/di'
 import {
 	AiOutlineAntDesign
@@ -32,6 +33,7 @@ const Skills = ({ show }) => {
 	return (
 	
 		<section className={ show ? 'skills showSkills' : 'skills' } >
+			
 			<div className="skill">
 				<div className="title">
 					<h2>Habilidades Blandas</h2>
@@ -164,6 +166,13 @@ const Skills = ({ show }) => {
 								<DiJqueryLogo />
 							</span>
 							<p>JQuery</p>
+						</div>
+
+						<div className="chart-container">
+							<span className='logo' >
+								<DiSass />
+							</span>
+							<p>Sass</p>
 						</div>
 					</div>
 				</div>

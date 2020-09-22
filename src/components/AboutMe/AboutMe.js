@@ -37,7 +37,7 @@ const AboutMe = ({ show }) => {
 					<div className="iam" >
 						<p>
 							<Typed 
-								strings={[ 'Developer', 'Front-End', 'Gamer', 'Back-End', 'Full-Stack', 'Otaku XD' ]}
+								strings={[ 'Developer', 'Front-End', 'Gamer', 'Back-End', 'Full-Stack' ]}
 								loop={true}
 								typeSpeed={60}
 								backSpeed={ 40 }

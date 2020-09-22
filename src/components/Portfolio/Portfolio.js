@@ -34,7 +34,7 @@ const Portfolio = ({ show }) => {
 				description='Login con tematica de pokemon empleando firebase y redux'
 				tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiFirebase', 'DiReact', 'AiOutlineAntDesign' ] }
 				demo='https://cocky-saha-e11c8b.netlify.app'
-				code='https://github.com/sanjisand/pokemon'
+				code='https://github.com/ssaurexd/pokemon'
 			/>
 
 			<PortfolioCard 
@@ -43,7 +43,7 @@ const Portfolio = ({ show }) => {
 				description='Proyecto personal desarrollado como practica, es la parte Back-End con Django Rest Framework.'
 				tecnologies={ [ 'DiPython', 'DiPostgresql'] }
 				demo='#'
-				code='https://github.com/sanjisand/libreria'
+				code='https://github.com/ssaurexd/libreria'
 			/>
 
 			<PortfolioCard 
@@ -52,7 +52,7 @@ const Portfolio = ({ show }) => {
 				description='Proyecto personal desarrollado como practica, es la parte Front-End con React'
 				tecnologies={ [ 'DiHtml5', 'DiReact', 'DiCss3', 'DiJavascript'] }
 				demo='https://upbeat-minsky-fab0d1.netlify.app/'
-				code='https://github.com/sanjisand/libreria-react'
+				code='https://github.com/ssaurexd/libreria-react'
 			/>
 
 			<PortfolioCard 
@@ -61,7 +61,7 @@ const Portfolio = ({ show }) => {
 				description='Proyecto realizado en curso de React, pone en práctica react-router, Redux.'
 				tecnologies={ [ 'DiCss3', 'DiJavascript', 'DiReact', 'DiHtml5', 'DiBootstrap' ] }
 				demo='https://priceless-hodgkin-e1a9c5.netlify.app'
-				code='https://github.com/sanjisand/heroes'
+				code='https://github.com/ssaurexd/heroes'
 			/>
 
 			<PortfolioCard 
@@ -70,7 +70,7 @@ const Portfolio = ({ show }) => {
 				description='Create, Delete, Update, Read'
 				tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiBootstrap', 'DiReact' ] }
 				demo='https://crud-portfolio.netlify.app/'
-				code='https://github.com/sanjisand/crud'
+				code='https://github.com/ssaurexd/crud'
 			/>			
 		</section>
 	)
