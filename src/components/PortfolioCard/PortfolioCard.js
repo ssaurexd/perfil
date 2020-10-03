@@ -7,10 +7,12 @@ import {
 	DiDjango,
 	DiReact,
 	DiPython,
+	DiNodejs,
 	DiBootstrap,
 	DiHtml5,
 	DiPostgresql,
-	DiFirebase
+	DiFirebase,
+	DiMongodb
 } from 'react-icons/di'
 import { FaGithubSquare } from 'react-icons/fa'
 import {
@@ -79,6 +81,12 @@ const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => 
 									}
 									{
 										item === 'AiOutlineAntDesign' && <AiOutlineAntDesign className='ico' />
+									}
+									{
+										item === 'DiMongodb' && <DiMongodb className='ico' />
+									}
+									{
+										item === 'DiNodejs' && <DiNodejs className='ico' />
 									}
 								</Fragment>
 							))

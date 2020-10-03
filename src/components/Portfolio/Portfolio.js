@@ -6,6 +6,7 @@ import imgFukuro2 from '../../static/images/fukuro2.jpg'
 import imgLogin from '../../static/images/login.png'
 import imgHeroes from '../../static/images/heroes.jpg'
 import imgCrud from '../../static/images/crud.jpg'
+import imgTodo from '../../static/images/todo.jpg'
 //
 import PortfolioCard from '../PortfolioCard/PortfolioCard'
 
@@ -18,6 +19,24 @@ const Portfolio = ({ show }) => {
 			<div className="title">
 				<h2>Portafolio</h2>
 			</div>
+
+			<PortfolioCard 
+				img={ imgTodo }
+				title='Todo list'
+				description='Front-end de tareas por hacer'
+				tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiReact', 'DiMongodb', 'AiOutlineAntDesign' ] }
+				demo='https://laughing-bassi-2ba0eb.netlify.app'
+				code='https://github.com/ssaurexd/todo-react'
+			/>
+			
+			<PortfolioCard 
+				img={ imgTodo }
+				title='Todo list'
+				description='Back-end de tareas por hacer'
+				tecnologies={ [ 'DiJavascript', 'DiMongodb', 'DiNodejs' ] }
+				demo='https://todo-node-ssaurexd.herokuapp.com/'
+				code='https://github.com/ssaurexd/todo'
+			/>
 
 			<PortfolioCard 
 				img={ imgCineteca }
