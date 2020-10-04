@@ -9,7 +9,7 @@ const Socials = () => {
 	return (
 
 		<div className='social-container'>
-			<a href='https://github.com/sanjisand' target='_blank' rel='noopener noreferrer' >
+			<a href='https://github.com/ssaurexd' target='_blank' rel='noopener noreferrer' >
 				<FaGithubSquare />
 			</a>
 
