@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/perfil/static/css/main.3f6283bc.chunk.css",
+    "main.css": "/perfil/static/css/main.04a0a944.chunk.css",
     "main.js": "/perfil/static/js/main.25c4795c.chunk.js",
     "main.js.map": "/perfil/static/js/main.25c4795c.chunk.js.map",
     "runtime-main.js": "/perfil/static/js/runtime-main.9b8b9c5b.js",
@@ -8,9 +8,9 @@
     "static/js/2.07965b04.chunk.js": "/perfil/static/js/2.07965b04.chunk.js",
     "static/js/2.07965b04.chunk.js.map": "/perfil/static/js/2.07965b04.chunk.js.map",
     "index.html": "/perfil/index.html",
-    "precache-manifest.42f7a00d343951d93e88e1d4cddac017.js": "/perfil/precache-manifest.42f7a00d343951d93e88e1d4cddac017.js",
+    "precache-manifest.f9edcd2e6395d23a92f20791836f319c.js": "/perfil/precache-manifest.f9edcd2e6395d23a92f20791836f319c.js",
     "service-worker.js": "/perfil/service-worker.js",
-    "static/css/main.3f6283bc.chunk.css.map": "/perfil/static/css/main.3f6283bc.chunk.css.map",
+    "static/css/main.04a0a944.chunk.css.map": "/perfil/static/css/main.04a0a944.chunk.css.map",
     "static/js/2.07965b04.chunk.js.LICENSE.txt": "/perfil/static/js/2.07965b04.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf",
     "static/media/sidebar.scss": "/perfil/static/media/bgSidebar3.98072286.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9b8b9c5b.js",
     "static/js/2.07965b04.chunk.js",
-    "static/css/main.3f6283bc.chunk.css",
+    "static/css/main.04a0a944.chunk.css",
     "static/js/main.25c4795c.chunk.js"
   ]
 }
