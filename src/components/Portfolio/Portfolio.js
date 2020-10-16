@@ -27,6 +27,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiReact', 'DiMongodb', 'AiOutlineAntDesign' ] }
 					demo='https://laughing-bassi-2ba0eb.netlify.app'
 					code='https://github.com/ssaurexd/todo-react'
+					disableBtnDemo={ false } 
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -36,6 +38,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiPhp', 'DiJavascript', 'DiMysql', 'DiJqueryLogo', 'DiHtml5', 'DiBootstrap' ] }
 					demo='#'
 					code='#'
+					disableBtnDemo={ true }
+					disableBtnGit={ true }
 				/>
 
 				<PortfolioCard 
@@ -45,6 +49,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiFirebase', 'DiReact', 'AiOutlineAntDesign' ] }
 					demo='https://cocky-saha-e11c8b.netlify.app'
 					code='https://github.com/ssaurexd/pokemon'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -54,6 +60,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiPython', 'DiPostgresql'] }
 					demo='#'
 					code='https://github.com/ssaurexd/libreria'
+					disableBtnDemo={ true }
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -63,6 +71,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiJavascript', 'DiMongodb', 'DiNodejs' ] }
 					demo='https://todo-node-ssaurexd.herokuapp.com/'
 					code='https://github.com/ssaurexd/todo'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -72,6 +82,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiHtml5', 'DiReact', 'DiCss3', 'DiJavascript'] }
 					demo='https://upbeat-minsky-fab0d1.netlify.app/'
 					code='https://github.com/ssaurexd/libreria-react'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -81,6 +93,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiCss3', 'DiJavascript', 'DiReact', 'DiHtml5', 'DiBootstrap' ] }
 					demo='https://priceless-hodgkin-e1a9c5.netlify.app'
 					code='https://github.com/ssaurexd/heroes'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
 				/>
 
 				<PortfolioCard 
@@ -90,6 +104,8 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiBootstrap', 'DiReact' ] }
 					demo='https://crud-portfolio.netlify.app/'
 					code='https://github.com/ssaurexd/crud'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
 				/>			
 			</section>
 		</div>	

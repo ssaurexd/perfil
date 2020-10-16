@@ -49,7 +49,8 @@
 			font-size: .7em;
 			color: black;
 			font-weight: normal;
-			line-height: 3vh;
+			line-height: 25px;
+			text-align: left;
 		}
 		.iam{
 			margin: 0 auto;
@@ -59,7 +60,8 @@
 			border-bottom: 1px solid #ccc ;
 			padding: 20px;
 			margin-top: 20px;
-			color: black;
+			color: rgb(134, 134, 134);
+			font-weight: 100;
 			font-family: Pacifico, cursive;
 
 			p{
@@ -75,8 +77,8 @@
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.568);
 		color: white;
-		padding: 20px 0px;
-		font-size: 1.5em;
+		padding: 8px 0px;
+		font-size: 1.3em;
 		font-family: Relaway;
 		font-weight: bold;
 		text-align: center;

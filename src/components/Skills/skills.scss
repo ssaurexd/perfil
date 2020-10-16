@@ -18,8 +18,8 @@
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.568);
 		color: white;
-		padding: 20px 0px;
-		font-size: 1.5em;
+		padding: 8px 0px;
+		font-size: 1.3em;
 		font-family: Relaway;
 		font-weight: bold;
 	}
@@ -37,12 +37,13 @@
 
 	.ico{
 		color: #09a382 ;
-		font-size: 9em;
+		font-size: 6em;
 	}
 	ul{
 		margin-left: 2vw;
 		line-height: 2em;
 		list-style: circle;
+		text-align: left;
 	}
 }
 .skill-hard{
@@ -120,6 +121,9 @@
 
 		.ico{
 			font-size: 100px;
+		}
+		ul{
+			text-align: center;
 		}
 	}
 	.skill-hard{

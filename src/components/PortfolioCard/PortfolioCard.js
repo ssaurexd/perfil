@@ -23,7 +23,18 @@ import React, { Fragment } from 'react'
 import './portfolioCard.scss'
 
 
-const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => {
+const PortfolioCard = ( props ) => {
+
+	const { 
+		title, 
+		description, 
+		img, 
+		tecnologies,
+		demo, 
+		code, 
+		disableBtnGit, 
+		disableBtnDemo 
+	} = props
 
 	return (
 
@@ -97,14 +108,18 @@ const PortfolioCard = ({ title, description, img, tecnologies, demo, code }) => 
 				<div className="card-footer">
 					<a 
 						href={ demo } 
-						className='card-btn' 
+						className={ disableBtnDemo ? 'card-btn disableLink' : 'card-btn'} 
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
 						Demo
 					</a>
 
-					<a href={ code } className='quita-borde' target='_blank' rel='noopener noreferrer' >
+					<a 
+						href={ code } 
+						className={ disableBtnGit ? 'quita-borde disableLink' : 'quita-borde'} 
+						target='_blank' 
+						rel='noopener noreferrer' >
 						<FaGithubSquare />
 					</a>
 				</div>

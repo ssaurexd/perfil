@@ -76,11 +76,14 @@
 		font-size: 1.3em;
 		font-weight: 800;
 		margin-bottom: 8px;
+		text-align: center;
 	}
 
 	.card-description {
-		text-align: center;
-		padding-left: 8px;
+		text-align: left;
+		padding-left: 2.5%;
+		line-height: 25px;
+		color: rgb(230, 230, 230);
 	}
 
 	.tecnologias {
@@ -110,12 +113,20 @@
 		border-radius: 4px;
 		padding: 5px;
 		transition: all 400ms ease;
+		text-align: center;
 
 		&:hover {
 			color: white;
 			background-color: #09a382;
 			border: 1px solid #09a382;
 		}
+	}
+
+	.disableLink{
+		pointer-events: none;
+		cursor: default;
+		border: #999 1px solid;
+		color: #999 !important;
 	}
 
 	.quita-borde {
