@@ -17,7 +17,7 @@ import AboutMe from '../AboutMe/AboutMe'
 
 const Main = () => {
 
-	const [path, setPath] = useState('')
+	const [ path, setPath ] = useState('')
 	const main = useRef()
 	const location = useLocation()
 	
@@ -46,7 +46,6 @@ const Main = () => {
 			<Nav />
 
 			<Switch>
-				
 				<Route path='/perfil/' exact >
 					<Home 
 						show={ path === '/perfil/' ? true : false }
@@ -72,7 +71,7 @@ const Main = () => {
 				</Route>
 
 				<Redirect to='/perfil/' exact />	
-
+				
 			</Switch>
 		</main>
 	)

@@ -23,6 +23,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgTodo }
 					title='Todo list'
+					stack='Front-End'
 					description='Front-end de tareas por hacer'
 					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiReact', 'DiMongodb', 'AiOutlineAntDesign' ] }
 					demo='https://laughing-bassi-2ba0eb.netlify.app'
@@ -34,6 +35,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgCineteca }
 					title='Videoteca Digital'
+					stack='Front-End/Back-End'
 					description='Proyecto realizado en la Cineteca Nacional de México como parte de mis prácticas profesionales en un periodo de 6 meses.'
 					tecnologies={ [ 'DiPhp', 'DiJavascript', 'DiMysql', 'DiJqueryLogo', 'DiHtml5', 'DiBootstrap' ] }
 					demo='#'
@@ -45,6 +47,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgLogin }
 					title='Login Firebase'
+					stack='Front-End'
 					description='Login con tematica de pokemon empleando firebase y redux'
 					tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiFirebase', 'DiReact', 'AiOutlineAntDesign' ] }
 					demo='https://cocky-saha-e11c8b.netlify.app'
@@ -56,6 +59,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgFukuro1 }
 					title='Fukuro'
+					stack='Back-End'
 					description='Proyecto personal desarrollado como practica, es la parte Back-End con Django Rest Framework.'
 					tecnologies={ [ 'DiPython', 'DiPostgresql'] }
 					demo='#'
@@ -67,6 +71,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgTodo }
 					title='Todo list'
+					stack='Back-End'
 					description='Back-end de tareas por hacer'
 					tecnologies={ [ 'DiJavascript', 'DiMongodb', 'DiNodejs' ] }
 					demo='https://todo-node-ssaurexd.herokuapp.com/'
@@ -78,7 +83,8 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgFukuro2 }
 					title='Fukuro'
-					description='Proyecto personal desarrollado como practica, es la parte Front-End con React'
+					stack='Front-End'
+					description='Librería, proyecto personal desarrollado como practica para la venta de libros, es la parte Front-End con React'
 					tecnologies={ [ 'DiHtml5', 'DiReact', 'DiCss3', 'DiJavascript'] }
 					demo='https://upbeat-minsky-fab0d1.netlify.app/'
 					code='https://github.com/ssaurexd/libreria-react'
@@ -89,6 +95,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgHeroes}
 					title='Heroes'
+					stack='Front-End'
 					description='Proyecto realizado en curso de React, pone en práctica react-router, Redux.'
 					tecnologies={ [ 'DiCss3', 'DiJavascript', 'DiReact', 'DiHtml5', 'DiBootstrap' ] }
 					demo='https://priceless-hodgkin-e1a9c5.netlify.app'
@@ -100,6 +107,7 @@ const Portfolio = ({ show }) => {
 				<PortfolioCard 
 					img={ imgCrud}
 					title='Crud'
+					stack='Front-End'
 					description='Create, Delete, Update, Read'
 					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiBootstrap', 'DiReact' ] }
 					demo='https://crud-portfolio.netlify.app/'

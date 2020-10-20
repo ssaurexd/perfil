@@ -1,6 +1,6 @@
 .hr{
 	width: 85%;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid rgb(223, 223, 223);
 	margin: 4vh auto;
 }
 .skills{
@@ -20,12 +20,13 @@
 		color: #898989;
 		padding: 8px 0px;
 		font-size: 1.3em;
-		font-family: Relaway;
+		font-family: 'Playfair Display';
 		font-weight: bold;
 		text-align: left;
 		border-bottom: 3px solid #898989;
 		margin-left: auto;
 		margin-right: auto;
+		text-transform: uppercase;
 	}
 }
 .skill-soft{

@@ -14,12 +14,13 @@ import {
 	DiFirebase,
 	DiMongodb
 } from 'react-icons/di'
-import { FaGithubSquare } from 'react-icons/fa'
 import {
-	AiOutlineAntDesign
+	AiOutlineAntDesign,
+	AiOutlineCloseCircle,
+	AiOutlineMore
 } from 'react-icons/ai'
 //
-import React, { Fragment } from 'react'
+import React, { Fragment, useRef } from 'react'
 import './portfolioCard.scss'
 
 
@@ -33,17 +34,43 @@ const PortfolioCard = ( props ) => {
 		demo, 
 		code, 
 		disableBtnGit, 
-		disableBtnDemo 
+		disableBtnDemo,
+		stack 
 	} = props
+
+	const showInfo = useRef()
+
+	const handleAddCloseAnimation = () => {
+
+		showInfo.current.classList.add( 'show-info__animationOut' )
+		showInfo.current.classList.remove( 'show-info__animationIn' )
+	}
+	
+	const handleAddAnimation = () => {
+
+		showInfo.current.classList.remove( 'show-info__animationOut' )
+		showInfo.current.classList.add( 'show-info__animationIn' )
+	}
 
 	return (
 
 		<div className='portfolio-card' >
 			<div className="card-header">
+				<h3> { stack } </h3>
+				
 				<img className='card-img'  src={ img } alt={ title } />
 			</div>
 
-			<div className="show-info">
+			<div className="show-info" ref={ showInfo } >
+
+				<div className="btn-close">
+					<button
+						onClick={ handleAddCloseAnimation }
+					>
+						<AiOutlineCloseCircle className='btn-close__ico' />
+					</button>
+				</div>
+
 				<div className="card-body">
 					<h6 className='card-title' >{ title }</h6>
 
@@ -104,23 +131,34 @@ const PortfolioCard = ( props ) => {
 						}
 					</div>
 				</div>
+			</div>
 
-				<div className="card-footer">
+			<div className="card-footer">
+				<div className="btn-showInfo">
+					<button
+						onClick={ handleAddAnimation }
+					>
+						<AiOutlineMore className='btn-showInfo__ico' />
+					</button>
+				</div>
+			
+				<div className="btn-group">
 					<a 
 						href={ demo } 
 						className={ disableBtnDemo ? 'card-btn disableLink' : 'card-btn'} 
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						Demo
+						Ver demo
 					</a>
 
 					<a 
 						href={ code } 
-						className={ disableBtnGit ? 'quita-borde disableLink' : 'quita-borde'} 
+						className={ disableBtnGit ? 'card-btn disableLink' : 'card-btn '} 
 						target='_blank' 
-						rel='noopener noreferrer' >
-						<FaGithubSquare />
+						rel='noopener noreferrer' 
+					>
+						Ver code
 					</a>
 				</div>
 			</div>

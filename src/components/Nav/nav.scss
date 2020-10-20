@@ -167,6 +167,9 @@ $border_color: black;
 			border: none;
 		}
 	}
+	.nav-fixed{
+		position: static;
+	}
 }
 
 @media screen and ( max-width: 516px ){
@@ -185,5 +188,8 @@ $border_color: black;
 			border: none;
 			flex-basis: 100%;
 		}
+	}
+	.nav-fixed{
+		position: static;
 	}
 }

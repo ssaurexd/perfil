@@ -3,8 +3,8 @@
 	margin-left: 25vw;
 	height: 100vh;
 	position: relative;
-	overflow: hidden;
 	overflow-y: scroll;
+	box-sizing: border-box;
 }
 
 .animacion-in{
