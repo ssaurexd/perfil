@@ -13,6 +13,7 @@ const App = () => {
 		
 		<Router>
 			<div className='app' >
+				
 				<Sidebar />
 
 				<Main />

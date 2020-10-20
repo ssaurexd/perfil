@@ -179,6 +179,10 @@
 			border-radius: 45%;
 			border: none;
 			background-color: transparent;
+
+			&:focus{
+				outline: none;
+			}
 		}
 		.btn-showInfo__ico{
 			color: black;
