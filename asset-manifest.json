@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/perfil/static/css/main.72c9a2be.chunk.css",
-    "main.js": "/perfil/static/js/main.dd0b210e.chunk.js",
-    "main.js.map": "/perfil/static/js/main.dd0b210e.chunk.js.map",
+    "main.css": "/perfil/static/css/main.504f2274.chunk.css",
+    "main.js": "/perfil/static/js/main.76feddce.chunk.js",
+    "main.js.map": "/perfil/static/js/main.76feddce.chunk.js.map",
     "runtime-main.js": "/perfil/static/js/runtime-main.9b8b9c5b.js",
     "runtime-main.js.map": "/perfil/static/js/runtime-main.9b8b9c5b.js.map",
-    "static/js/2.d837aa47.chunk.js": "/perfil/static/js/2.d837aa47.chunk.js",
-    "static/js/2.d837aa47.chunk.js.map": "/perfil/static/js/2.d837aa47.chunk.js.map",
+    "static/js/2.78afa7d8.chunk.js": "/perfil/static/js/2.78afa7d8.chunk.js",
+    "static/js/2.78afa7d8.chunk.js.map": "/perfil/static/js/2.78afa7d8.chunk.js.map",
     "index.html": "/perfil/index.html",
-    "precache-manifest.e170531b8df3567f6d1d6a1850c0a11b.js": "/perfil/precache-manifest.e170531b8df3567f6d1d6a1850c0a11b.js",
+    "precache-manifest.e5f77d6e1d9e7fbcd4b47d92a41a672a.js": "/perfil/precache-manifest.e5f77d6e1d9e7fbcd4b47d92a41a672a.js",
     "service-worker.js": "/perfil/service-worker.js",
-    "static/css/main.72c9a2be.chunk.css.map": "/perfil/static/css/main.72c9a2be.chunk.css.map",
-    "static/js/2.d837aa47.chunk.js.LICENSE.txt": "/perfil/static/js/2.d837aa47.chunk.js.LICENSE.txt",
+    "static/css/main.504f2274.chunk.css.map": "/perfil/static/css/main.504f2274.chunk.css.map",
+    "static/js/2.78afa7d8.chunk.js.LICENSE.txt": "/perfil/static/js/2.78afa7d8.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf",
     "static/media/sidebar.scss": "/perfil/static/media/bgSidebar3.98072286.jpg",
     "static/media/c1.jpg": "/perfil/static/media/c1.67dae38e.jpg",
@@ -24,7 +24,6 @@
     "static/media/c8.jpg": "/perfil/static/media/c8.85c31909.jpg",
     "static/media/cineteca.jpg": "/perfil/static/media/cineteca.f4592faf.jpg",
     "static/media/crud.jpg": "/perfil/static/media/crud.84f51e98.jpg",
-    "static/media/cv.pdf": "/perfil/static/media/cv.578b4bfe.pdf",
     "static/media/fukuro.jpg": "/perfil/static/media/fukuro.30f07721.jpg",
     "static/media/fukuro2.jpg": "/perfil/static/media/fukuro2.f452dee2.jpg",
     "static/media/heroes.jpg": "/perfil/static/media/heroes.cb48a265.jpg",
@@ -35,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9b8b9c5b.js",
-    "static/js/2.d837aa47.chunk.js",
-    "static/css/main.72c9a2be.chunk.css",
-    "static/js/main.dd0b210e.chunk.js"
+    "static/js/2.78afa7d8.chunk.js",
+    "static/css/main.504f2274.chunk.css",
+    "static/js/main.76feddce.chunk.js"
   ]
 }
