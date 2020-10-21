@@ -50,8 +50,6 @@ const Skills = ({ show }) => {
 						<li>Responsable</li>
 						<li>Puntualidad</li>
 						<li>Adaptabilidad</li>
-					</ul>
-					<ul>
 						<li>Flexibilidad</li>
 						<li>Planificación</li>
 						<li>Gestión del tiempo</li>

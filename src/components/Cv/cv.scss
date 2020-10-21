@@ -1,16 +1,18 @@
 .btn-cv{
-	display: block;
-	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: K2D;
-	width: 15vw;
+	min-width: 80px;
+	width: 13vw;
 	height: 50px;
 	background-color: transparent;
+	border-radius: 5px;
 	border: none;
+	font-size: 0.9em;
 	margin: 0 auto;
 	color: white;
-	border-radius: 2px;
 	cursor: pointer;
-	font-size: .9em;
 	text-align: center;
 	text-decoration: none;
 	position: relative;
@@ -18,9 +20,17 @@
 	border: 1px solid white;
 	transition: all 500ms;
 
+	.btn-cv__ico{
+		font-weight: 200;
+		margin-right: 5px;
+	}
+
 	&:hover{
 		background-color: #09a382 ;
 		border: 1px solid #09a382 ;
+	}
+	&:focus{
+		outline: none;
 	}
 }
 
@@ -34,15 +44,23 @@
 		width: 200px;
 		height: 40px;
 		line-height: 40px;
+
+		.btn-cv__ico{
+			font-size: 1.8em;
+		}
 	}
 }
 @media screen and ( max-width: 516px ){
 	.btn-cv{
 		width: 140px;
 		height: 40px;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: bolder;
 		background-color: #09a382 ;
 		border: 1px solid #09a382 ;
+
+		.btn-cv__ico{
+			font-size: 1em;
+		}
 	}
 }

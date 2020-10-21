@@ -1,8 +1,7 @@
-import { FaCloudDownloadAlt } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
 //
 import React from 'react'
 import './cv.scss'
-import cvPDF from '../../static/cv/cv.pdf'
 
 
 const Cv = () => {
@@ -12,9 +11,10 @@ const Cv = () => {
 		<a
 			className='btn-cv'
 			target='_blank' rel='noopener noreferrer'
-			href={ cvPDF }
+			href='mailto:ssaurexd@gmail.com?subject=Soliciar%20CV'
 		>
-			<FaCloudDownloadAlt /> Descargar CV	
+			<FiMail className='btn-cv__ico' /> 
+			Contactar
 		</a>
 	)
 }
