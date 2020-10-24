@@ -7,6 +7,8 @@ import imgLogin from '../../static/images/login.png'
 import imgHeroes from '../../static/images/heroes.jpg'
 import imgCrud from '../../static/images/crud.jpg'
 import imgTodo from '../../static/images/todo.jpg'
+import imgRomenher from '../../static/images/romanher.png'
+
 //
 import PortfolioCard from '../PortfolioCard/PortfolioCard'
 
@@ -19,6 +21,18 @@ const Portfolio = ({ show }) => {
 				<div className="title">
 					<h2>Portafolio</h2>
 				</div>
+
+				<PortfolioCard 
+					img={ imgRomenher }
+					title='Landing Page'
+					stack='Front-End'
+					description='Landing page de una reposteria con llamado a la api de instagram'
+					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiReact', '', 'DiCss3', 'DiBootstrap' ] }
+					demo='https://romanher.netlify.app/'
+					code='https://github.com/ssaurexd/landing-page-cake'
+					disableBtnDemo={ false } 
+					disableBtnGit={ false }
+				/>
 
 				<PortfolioCard 
 					img={ imgTodo }
