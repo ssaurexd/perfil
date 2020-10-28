@@ -21,6 +21,7 @@ import {
 } from 'react-icons/ai'
 //
 import React, { Fragment, useRef } from 'react'
+import PropTypes from 'prop-types'
 import './portfolioCard.scss'
 
 
@@ -165,5 +166,18 @@ const PortfolioCard = ( props ) => {
 		</div>
 	)
 }
+
+PortfolioCard.propTypes = {
+	title: PropTypes.string.isRequired, 
+	description: PropTypes.string.isRequired, 
+	img: PropTypes.string.isRequired, 
+	tecnologies: PropTypes.arrayOf( PropTypes.string ).isRequired,
+	demo: PropTypes.string.isRequired, 
+	code: PropTypes.string.isRequired, 
+	disableBtnGit: PropTypes.bool.isRequired, 
+	disableBtnDemo: PropTypes.bool.isRequired,
+	stack: PropTypes.string.isRequired
+}
+
 
 export default PortfolioCard
