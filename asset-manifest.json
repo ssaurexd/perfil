@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/perfil/static/css/main.4380574d.chunk.css",
-    "main.js": "/perfil/static/js/main.bf766d7f.chunk.js",
-    "main.js.map": "/perfil/static/js/main.bf766d7f.chunk.js.map",
+    "main.css": "/perfil/static/css/main.aeaaee9a.chunk.css",
+    "main.js": "/perfil/static/js/main.9ddcb81f.chunk.js",
+    "main.js.map": "/perfil/static/js/main.9ddcb81f.chunk.js.map",
     "runtime-main.js": "/perfil/static/js/runtime-main.9b8b9c5b.js",
     "runtime-main.js.map": "/perfil/static/js/runtime-main.9b8b9c5b.js.map",
     "static/js/2.3fe865b3.chunk.js": "/perfil/static/js/2.3fe865b3.chunk.js",
     "static/js/2.3fe865b3.chunk.js.map": "/perfil/static/js/2.3fe865b3.chunk.js.map",
     "index.html": "/perfil/index.html",
-    "precache-manifest.043ac2afbe22af0f7b3cf281dcbea855.js": "/perfil/precache-manifest.043ac2afbe22af0f7b3cf281dcbea855.js",
+    "precache-manifest.6624f114d0dc83001d1cde5ccaf61c7f.js": "/perfil/precache-manifest.6624f114d0dc83001d1cde5ccaf61c7f.js",
     "service-worker.js": "/perfil/service-worker.js",
-    "static/css/main.4380574d.chunk.css.map": "/perfil/static/css/main.4380574d.chunk.css.map",
+    "static/css/main.aeaaee9a.chunk.css.map": "/perfil/static/css/main.aeaaee9a.chunk.css.map",
     "static/js/2.3fe865b3.chunk.js.LICENSE.txt": "/perfil/static/js/2.3fe865b3.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/perfil/static/media/Sacramento-Regular.66b0e223.ttf",
     "static/media/sidebar.scss": "/perfil/static/media/bgSidebar3.98072286.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9b8b9c5b.js",
     "static/js/2.3fe865b3.chunk.js",
-    "static/css/main.4380574d.chunk.css",
-    "static/js/main.bf766d7f.chunk.js"
+    "static/css/main.aeaaee9a.chunk.css",
+    "static/js/main.9ddcb81f.chunk.js"
   ]
 }
