@@ -11,7 +11,7 @@ const Cv = () => {
 		<a
 			className='btn-cv'
 			target='_blank' rel='noopener noreferrer'
-			href='mailto:ssaurexd@gmail.com?subject=Soliciar%20CV'
+			href='mailto:ssaurexd@gmail.com?subject=Solicitar%20CV'
 		>
 			<FiMail className='btn-cv__ico' /> 
 			Contactar
