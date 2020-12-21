@@ -1,0 +1,54 @@
+.gototop-container{
+	display: none;
+}
+
+@media screen and ( max-width: 516px ){
+	.gototop{
+		display: flex;
+		position: fixed;
+		bottom: 20vh;
+		right: 10px;
+		height: 45px;
+		width: 45px;
+		border-radius: 50%;
+		background-color: #02AFBA;
+		z-index: 99;
+		cursor: pointer;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.5);
+		opacity: 0.7;
+		
+		&:focus{
+			outline: none;
+		}
+		.gototop-container__ico{
+			color:white;
+			font-size: 2.3rem;
+			opacity: 1;
+			font-weight: bolder;
+		}
+	}
+
+	.show__ico{
+		animation: showGoToTop 800ms ease-in-out forwards;
+
+		@keyframes showGoToTop {
+			0%{
+
+				transform: translateX( 150% );
+			}
+			50%{
+				right: 23px;
+				transform: rotate( 0.2turn );
+			}
+			100%{
+				transform: rotate( 0turn );
+				transform: translateX( 0% );
+			}
+		}
+	}	
+	.hide__ico{
+		display: none;
+	}	
+}

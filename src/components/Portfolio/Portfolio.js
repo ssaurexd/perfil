@@ -11,13 +11,17 @@ import imgRomenher from '../../static/images/romanher.png'
 
 //
 import PortfolioCard from '../PortfolioCard/PortfolioCard'
+import GoToTop from '../GoToTop/GoToTop'
 
 
 const Portfolio = ({ show }) => {
 	
 	return (
 		<div className="porfolio-container">
+			<GoToTop />
+
 			<section className={ show ? 'portfolio showSkills' : 'portfolio' } >
+				
 				<div className="title">
 					<h2>Portafolio</h2>
 				</div>
