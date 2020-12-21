@@ -149,12 +149,16 @@
 		text-align: left;
 		padding-left: 2.5%;
 		line-height: 25px;
-		color: rgb(230, 230, 230);
+		color: white;
 	}
 
 	.tecnologias {
 		font-size: 1em;
-		margin-top: 5px;
+		margin-top: 35px;
+		p{
+			margin-bottom: 10px;
+			font-weight: 700;
+		}
 
 		.ico {
 			font-size: 2em;
