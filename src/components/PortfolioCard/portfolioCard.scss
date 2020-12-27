@@ -7,7 +7,6 @@
 	max-width: 350px;
 	border-radius: 5px;
 	transition: all 300ms ease;
-	border-left: 1px solid #ccc;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -15,7 +14,7 @@
 	flex-wrap: wrap;
 	margin: 20px;
 	box-sizing: border-box;
-	box-shadow: -4px -4px 7px hsla(0,0%,100%,.313725),3px 3px 5px rgba(94,104,121,.288);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
 }
 
 .card-header {
@@ -37,6 +36,25 @@
 		left: 0px;
 		font-family: K2D;
 		z-index: 98;
+	}
+	.github{
+		background-color: #49494993;
+		height: 80px;
+		display: flex;
+		width: 80px;
+		position: absolute;
+		right: 0;
+		clip-path: polygon(0 0, 100% 100%, 100% 0);
+		z-index: 98;
+
+		.github__ico{
+			position: absolute;
+			right: 5%;
+			top: 5%;
+			transform: rotate(45deg);
+			font-size: 2.5rem;
+			color:white;
+		}
 	}
 	.card-img {
 		width: 100%;
@@ -223,7 +241,7 @@
 			border: 1px solid #09a382;
 			color: #09a382;
 			border-radius: 4px;
-			padding: 2.5%;
+			padding: 7px 16px;
 			transition: all 400ms ease;
 			text-align: center;
 			font-family: 'Playfair Display';
@@ -248,9 +266,5 @@
 @media screen and ( max-width: 516px ){
 	.portfolio-card:first-child{
 		margin-top: 30vh;
-	}
-	.portfolio-card{
-		box-shadow: -4px -4px 7px hsla(0,0%,100%,.313725),
-					3px 3px 5px rgba(94,104,121,.288);
 	}
 }

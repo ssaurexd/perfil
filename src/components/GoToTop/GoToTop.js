@@ -16,30 +16,38 @@ const GoToTop = () => {
 	}
 	
 	//detecta si el scroll es mayor igual al ultimo hijo
-	window.onscroll = () => {
-	
-		let projects = gototopRef.current.parentElement.lastChild.children
-		let lastchild = projects[ projects.length -1 ].offsetTop
+	if( gototopRef.current ) {
 
-		if( window.scrollY > lastchild ) {
+		const body = gototopRef.current.parentElement.parentElement.parentElement.parentElement.parentElement
 
-			gototopRef.current.classList.remove('hide__ico')
-			gototopRef.current.classList.add('show__ico')
-		}
-		else {
+		body.onscroll = () => {
 			
-			gototopRef.current.classList.remove('show__ico')
-			gototopRef.current.classList.add('hide__ico')
+			if( gototopRef.current ) {
+				
+				let projects = gototopRef.current.parentElement.lastChild.children
+				let lastchild = projects[ projects.length -1 ].offsetTop
+		
+				if( window.scrollY > lastchild ) {
+		
+					gototopRef.current.classList.remove('hide__ico')
+					gototopRef.current.classList.add('show__ico')
+				}
+				else {
+					
+					gototopRef.current.classList.remove('show__ico')
+					gototopRef.current.classList.add('hide__ico')
+				} 
+			}		
 		}
-			
 	}
-
+	
 	return (
 		
 		<div 
 			ref={ gototopRef } 
 			onClick={ handleClick }
 			className="gototop-container gototop hide__ico"
+			id="gototop"
 		>
 			<MdKeyboardArrowUp className='gototop-container__ico' />
 		</div>

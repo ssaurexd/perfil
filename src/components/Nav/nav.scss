@@ -65,6 +65,9 @@ $border_color: black;
 	&:hover:after,
 	&:hover:before {
 		transform: scale(1);
+	}
+	&:focus{
+		outline: none;
 	}	
 }
 
@@ -125,6 +128,9 @@ $border_color: black;
 		&:hover:before {
 			transform: scale(1);
 		}	
+		&:focus{
+			outline: none;
+		}
 	}
 }
 

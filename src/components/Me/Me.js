@@ -18,7 +18,7 @@ const Me = () => {
 			<div className="info">
 				<p>Aureliano Torres Sandoval</p>
 				<p className='ing' >Ing. En Tecnologias de la Información y Comunicaciones</p>
-				<p className="ing">Desarrollador Full-Stack</p>
+				<p className="ing">Desarrollador Web</p>
 			</div>
 		</div>
 	)

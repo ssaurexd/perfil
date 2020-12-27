@@ -23,6 +23,7 @@ const Main = () => {
 	
 	//registra cuando el path cambia y lo asigna al state 'path'
 	useEffect( () => {
+		
 		setPath(location.pathname )
 	}, [ location ])
 	

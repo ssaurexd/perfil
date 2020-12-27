@@ -17,7 +17,8 @@ import {
 import {
 	AiOutlineAntDesign,
 	AiOutlineCloseCircle,
-	AiOutlineMore
+	AiOutlineMore,
+	AiOutlineGithub
 } from 'react-icons/ai'
 //
 import React, { Fragment, useRef } from 'react'
@@ -33,9 +34,9 @@ const PortfolioCard = ( props ) => {
 		img, 
 		tecnologies,
 		demo, 
-		code, 
-		disableBtnGit, 
+		code,
 		disableBtnDemo,
+		disableBtnGit,
 		stack 
 	} = props
 
@@ -59,6 +60,17 @@ const PortfolioCard = ( props ) => {
 			<div className="card-header">
 				<h3> { stack } </h3>
 				
+				{
+					!disableBtnGit && (
+
+						<a href={ code }>
+							<div className="github">
+								<AiOutlineGithub className="github__ico" />
+							</div>
+						</a>
+					)
+				}
+
 				<img className='card-img'  src={ img } alt={ title } />
 			</div>
 
@@ -151,16 +163,7 @@ const PortfolioCard = ( props ) => {
 						rel='noopener noreferrer'
 					>
 						Ver demo
-					</a>
-
-					<a 
-						href={ code } 
-						className={ disableBtnGit ? 'card-btn disableLink' : 'card-btn '} 
-						target='_blank' 
-						rel='noopener noreferrer' 
-					>
-						Ver code
-					</a>
+					</a>	
 				</div>
 			</div>
 		</div>
