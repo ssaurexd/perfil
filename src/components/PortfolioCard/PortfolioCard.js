@@ -63,7 +63,7 @@ const PortfolioCard = ( props ) => {
 				{
 					!disableBtnGit && (
 
-						<a href={ code }>
+						<a href={ code } target='_blank' rel='noopener noreferrer' >
 							<div className="github">
 								<AiOutlineGithub className="github__ico" />
 							</div>
