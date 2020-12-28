@@ -17,7 +17,7 @@ import GoToTop from '../GoToTop/GoToTop'
 const Portfolio = ({ show }) => {
 	
 	return (
-		<div className="porfolio-container">
+		<div className="portfolio-container">
 			<GoToTop />
 
 			<div className="title">
