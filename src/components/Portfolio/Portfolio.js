@@ -20,11 +20,22 @@ const Portfolio = ({ show }) => {
 		<div className="porfolio-container">
 			<GoToTop />
 
+			<div className="title">
+				<h2>Portafolio</h2>
+			</div>
+			
 			<section className={ show ? 'portfolio showSkills' : 'portfolio' } >
-				
-				<div className="title">
-					<h2>Portafolio</h2>
-				</div>
+				<PortfolioCard 
+					img={ imgCineteca }
+					title='Videoteca Digital'
+					stack='Front-End/Back-End'
+					description='Proyecto realizado en la Cineteca Nacional de México como parte de mis prácticas profesionales en un periodo de 6 meses.'
+					tecnologies={ [ 'DiPhp', 'DiJavascript', 'DiMysql', 'DiJqueryLogo', 'DiHtml5', 'DiBootstrap' ] }
+					demo='#'
+					code='#'
+					disableBtnDemo={ true }
+					disableBtnGit={ true }
+				/>
 
 				<PortfolioCard 
 					img={ imgRomenher }
@@ -51,18 +62,6 @@ const Portfolio = ({ show }) => {
 				/>
 
 				<PortfolioCard 
-					img={ imgCineteca }
-					title='Videoteca Digital'
-					stack='Front-End/Back-End'
-					description='Proyecto realizado en la Cineteca Nacional de México como parte de mis prácticas profesionales en un periodo de 6 meses.'
-					tecnologies={ [ 'DiPhp', 'DiJavascript', 'DiMysql', 'DiJqueryLogo', 'DiHtml5', 'DiBootstrap' ] }
-					demo='#'
-					code='#'
-					disableBtnDemo={ true }
-					disableBtnGit={ true }
-				/>
-
-				<PortfolioCard 
 					img={ imgLogin }
 					title='Login Firebase'
 					stack='Front-End'
@@ -70,30 +69,6 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiHtml5', 'DiJavascript', 'DiFirebase', 'DiReact', 'AiOutlineAntDesign' ] }
 					demo='https://cocky-saha-e11c8b.netlify.app'
 					code='https://github.com/ssaurexd/pokemon'
-					disableBtnDemo={ false }
-					disableBtnGit={ false }
-				/>
-
-				<PortfolioCard 
-					img={ imgFukuro1 }
-					title='Fukuro'
-					stack='Back-End'
-					description='Proyecto personal desarrollado como practica, es la parte Back-End con Django Rest Framework.'
-					tecnologies={ [ 'DiPython', 'DiPostgresql'] }
-					demo='#'
-					code='https://github.com/ssaurexd/libreria'
-					disableBtnDemo={ true }
-					disableBtnGit={ false }
-				/>
-
-				<PortfolioCard 
-					img={ imgTodo }
-					title='Todo list'
-					stack='Back-End'
-					description='Back-end de tareas por hacer'
-					tecnologies={ [ 'DiJavascript', 'DiMongodb', 'DiNodejs' ] }
-					demo='https://todo-node-ssaurexd.herokuapp.com/'
-					code='https://github.com/ssaurexd/todo'
 					disableBtnDemo={ false }
 					disableBtnGit={ false }
 				/>
@@ -130,6 +105,30 @@ const Portfolio = ({ show }) => {
 					tecnologies={ [ 'DiJavascript', 'DiHtml5', 'DiBootstrap', 'DiReact' ] }
 					demo='https://crud-portfolio.netlify.app/'
 					code='https://github.com/ssaurexd/crud'
+					disableBtnDemo={ false }
+					disableBtnGit={ false }
+				/>
+
+				<PortfolioCard 
+					img={ imgFukuro1 }
+					title='Fukuro'
+					stack='Back-End'
+					description='Proyecto personal desarrollado como practica, es la parte Back-End con Django Rest Framework.'
+					tecnologies={ [ 'DiPython', 'DiPostgresql'] }
+					demo='#'
+					code='https://github.com/ssaurexd/libreria'
+					disableBtnDemo={ true }
+					disableBtnGit={ false }
+				/>
+
+				<PortfolioCard 
+					img={ imgTodo }
+					title='Todo list'
+					stack='Back-End'
+					description='Back-end de tareas por hacer'
+					tecnologies={ [ 'DiJavascript', 'DiMongodb', 'DiNodejs' ] }
+					demo='https://todo-node-ssaurexd.herokuapp.com/'
+					code='https://github.com/ssaurexd/todo'
 					disableBtnDemo={ false }
 					disableBtnGit={ false }
 				/>			
