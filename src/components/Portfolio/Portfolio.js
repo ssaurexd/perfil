@@ -8,6 +8,7 @@ import imgHeroes from '../../static/images/heroes.jpg'
 import imgCrud from '../../static/images/crud.jpg'
 import imgTodo from '../../static/images/todo.jpg'
 import imgRomenher from '../../static/images/romanher.png'
+import imgBitwine from '../../static/images/bitwine.png'
 
 //
 import PortfolioCard from '../PortfolioCard/PortfolioCard'
@@ -25,6 +26,18 @@ const Portfolio = ({ show }) => {
 			</div>
 			
 			<section className={ show ? 'portfolio showSkills' : 'portfolio' } >
+				<PortfolioCard 
+					img={ imgBitwine }
+					title='Videoteca Digital'
+					stack='Front-End/Back-End'
+					description='Proyecto personal en proceso, construido con la tecnologias NextJS, ReactJS, Typescript, MongoDB, Mongoose, MaterialUI'
+					tecnologies={ [ 'DiReact' ] }
+					demo='https://bitwine-client.herokuapp.com/'
+					code='#'
+					disableBtnDemo={ false }
+					disableBtnGit={ true }
+				/>
+
 				<PortfolioCard 
 					img={ imgCineteca }
 					title='Videoteca Digital'
