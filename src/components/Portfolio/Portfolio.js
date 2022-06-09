@@ -28,7 +28,7 @@ const Portfolio = ({ show }) => {
 			<section className={ show ? 'portfolio showSkills' : 'portfolio' } >
 				<PortfolioCard 
 					img={ imgBitwine }
-					title='Videoteca Digital'
+					title='E-Commerce'
 					stack='Front-End/Back-End'
 					description='Proyecto personal en proceso, construido con la tecnologias NextJS, ReactJS, Typescript, MongoDB, Mongoose, MaterialUI'
 					tecnologies={ [ 'DiReact' ] }
